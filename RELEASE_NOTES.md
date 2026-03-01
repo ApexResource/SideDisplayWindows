@@ -1,0 +1,21 @@
+# Release Notes
+
+## v0.9.0 — Initial Release
+
+**Release Date:** March 2, 2026
+
+SideDisplay for Windows is now available. This is the first official release.
+
+### Features
+
+- Display your Android device screen on your Windows PC as a side monitor
+- Low-latency screen mirroring via USB/Wi-Fi connection
+- Lightweight and easy to set up
+
+### System Requirements
+
+- Windows 10 or later (64-bit)
+
+### Installation
+
+Download the installer from the [Releases](https://github.com/AirOnSkin/SideDisplayWindows/releases) page.

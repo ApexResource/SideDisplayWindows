@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.3 — Signed Virtual Display Driver
+
+**Release Date:** March 2, 2026
+
+- Use signed Virtual Display Driver
+
+---
+
 ## v1.0.0 — First Stable Release
 
 **Release Date:** March 2, 2026

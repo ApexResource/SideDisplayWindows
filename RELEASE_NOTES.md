@@ -1,5 +1,13 @@
 # Release Notes
 
+## v0.9.3 — Bug Fixes
+
+**Release Date:** March 2, 2026
+
+- Fixed minor bugs and improved stability
+
+---
+
 ## v0.9.0 — Initial Release
 
 **Release Date:** March 2, 2026

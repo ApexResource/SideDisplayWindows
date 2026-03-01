@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.0 — First Stable Release
+
+**Release Date:** March 2, 2026
+
+- First stable version of SideDisplay for Windows
+
+---
+
 ## v0.9.5 — Bug Fixes
 
 **Release Date:** March 2, 2026

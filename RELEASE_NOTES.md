@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.6 — Clean Browser Display
+
+**Release Date:** March 3, 2026
+
+- Removed debug overlay and latency display from browser client
+
+---
+
 ## v1.0.5 — Adapter IP Restore Fix
 
 **Release Date:** March 3, 2026

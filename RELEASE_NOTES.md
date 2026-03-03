@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.4 — Improved Connection Stability
+
+**Release Date:** March 3, 2026
+
+- Improved connection stability
+
+---
+
 ## v1.0.3 — Signed Virtual Display Driver
 
 **Release Date:** March 2, 2026

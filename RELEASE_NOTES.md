@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.5 — Adapter IP Restore Fix
+
+**Release Date:** March 3, 2026
+
+- Fixed adapter IP not being restored to original value on cleanup
+
+---
+
 ## v1.0.4 — Improved Connection Stability
 
 **Release Date:** March 3, 2026

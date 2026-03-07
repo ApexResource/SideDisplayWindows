@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.1.0 (2026-03-08)
+
+### New Features
+- **Internet Access Control** — Control whether connected devices can access the internet through your hotspot. Disabled by default to save hotspot data.
+- **Always-on Domain Access** — The `go.ss` shortcut domain is now always active when hotspot is configured. No need to toggle it on manually.
+
+---
+
 ## v1.0.6 — Clean Browser Display
 
 **Release Date:** March 3, 2026

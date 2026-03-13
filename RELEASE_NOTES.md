@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.2.0 — Improved Device Compatibility
+
+**Release Date:** March 13, 2026
+
+- **Better Captive Portal Handling** — Apple devices no longer show captive portal popups when internet access is disabled.
+
+---
+
 ## v1.1.0 (2026-03-08)
 
 ### New Features

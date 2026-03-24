@@ -1,5 +1,14 @@
 # Release Notes
 
+## v1.3.0 — Diagnostics & Connection Improvement
+
+**Release Date:** March 24, 2026
+
+- **Faster Connection** — Improved signaling speed for quicker WebRTC connection setup.
+- **Diagnostics** — New "Enable Diagnostics" option that logs detailed debug information including network interface state, firewall rules, and connection events. Diagnostic report can be submitted directly from the app after stopping.
+
+---
+
 ## v1.2.0 — Improved Device Compatibility
 
 **Release Date:** March 13, 2026

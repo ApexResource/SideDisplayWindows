@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.4.0 — Multi-Display & Stability
+
+**Release Date:** April 9, 2026
+
+- **Multi-Display Support** — Connect up to 3 devices simultaneously, each with independent virtual display and resolution settings.
+- **Per-Display Settings** — Configure resolution and DPI scaling individually for each display via popover UI.
+- **License Window Improvements** — Redesigned layout with email display, subscription status, and My Orders link.
+- **Trial Timer Fix** — Timer now correctly pauses when browser disconnects or refreshes, and resumes on reconnect.
+- **Improved Diagnostics** — Debug log resets on app start, diagnostic report window now shows reliably after stop.
+- **Stability Improvements** — Graceful port conflict handling, fixed popup positioning, and improved VDD creation for custom resolutions.
+
+---
+
 ## v1.3.0 — Diagnostics & Connection Improvement
 
 **Release Date:** March 24, 2026

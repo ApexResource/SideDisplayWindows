@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.4.1 — Hotspot Detection Fix
+
+**Release Date:** April 13, 2026
+
+- **Hotspot Detection Fallback** — Fixed hotspot not being detected on systems where the Wi-Fi Direct adapter uses non-standard driver descriptions (e.g. Realtek). Added ICS IP-based fallback detection.
+
+---
+
 ## v1.4.0 — Multi-Display & Stability
 
 **Release Date:** April 9, 2026

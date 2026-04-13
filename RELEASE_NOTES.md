@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.4.2 — Fallback Mode Fix
+
+**Release Date:** April 13, 2026
+
+- **Fallback Mode Fix** — Fixed network configuration getting stuck in fallback mode when the Wi-Fi Direct adapter description is non-standard (e.g. Realtek drivers). `NetworkConfigurator` now uses the same ICS IP-based fallback as hotspot detection, so the adapter is found and the IP change + DHCP server start correctly.
+
+---
+
 ## v1.4.1 — Hotspot Detection Fix
 
 **Release Date:** April 13, 2026

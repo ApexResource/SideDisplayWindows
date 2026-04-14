@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.4.4 — Connection Reliability
+
+**Release Date:** April 15, 2026
+
+- **More Reliable Connections** — Improved network stability so devices connect consistently and keep the same address across reconnects, even when Windows Internet Connection Sharing is enabled.
+
+---
+
 ## v1.4.2 — Fallback Mode Fix
 
 **Release Date:** April 13, 2026

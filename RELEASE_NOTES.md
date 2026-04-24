@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.5.0 — Encoder Selection & Performance
+
+**Release Date:** April 25, 2026
+
+- **Per-Display Encoder Selection** — Choose the H.264 hardware encoder (Intel QSV, NVIDIA NVENC, AMD AMF) or software fallback for each display from a new dropdown in display settings. "Auto" distributes available encoders across connected displays. Multiple displays can share the same encoder when needed.
+- **Improved Video Performance** — GPU-accelerated BGRA→NV12 conversion with cursor rendering moves work off the CPU, reducing per-frame capture time by 40–60% on hybrid laptops.
+- **Connection Stability** — Clients now receive a proper keyframe when the virtual display restarts (e.g. resolution change), eliminating frozen-video symptoms. AMF streams inject SPS/PPS on every IDR so WebRTC decoders can recover cleanly from packet loss.
+- **Network Fixes** — DHCP server sends NAK on IP conflicts so clients re-acquire the correct address instead of hanging.
+- **Stability** — Fixed AV crash on stop, eliminated ghost VDD devices left behind after unclean shutdown, and removed frame-drop artifacts during encoder switches.
+- **Diagnostics** — Startup diagnostic snapshot now includes DXGI adapter vendor IDs and dedicated VRAM, helping troubleshoot hybrid laptop display issues.
+
+---
+
 ## v1.4.4 — Connection Reliability
 
 **Release Date:** April 15, 2026

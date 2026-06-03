@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.6.0 — Hotspot Without Internet & Connection Modes
+
+**Release Date:** June 3, 2026
+
+- **Hotspot Without Internet** — A new "Hotspot with loopback interface" mode runs Windows Mobile Hotspot off a virtual loopback adapter, so your PC can broadcast a hotspot even when it has no internet connection. Ideal for in-car Tesla setups and other offline scenarios.
+- **Connection Mode Selector** — Replaces the previous loopback toggle with a clear three-way choice — *Same network*, *Hotspot with internet*, *Hotspot with loopback* — selectable from a dedicated settings dialog with inline descriptions of each mode.
+- **Getting Started Tutorial** — A new in-app tutorial walks new users through their first connection. Auto-shown on first launch, with device-first branching (Tesla vs. laptop/tablet) that maps to the appropriate connection mode. Reopen anytime from Help → Getting Started.
+- **Release Notes on Update** — After an update, SideDisplay surfaces the cumulative changes since your previous version on first launch. Help → Release Notes opens the full history at any time. The update prompt also now displays full cumulative release notes instead of just the latest version's summary.
+- **DHCP Reliability Overhaul** — Fixed four root causes that previously left clients stuck in DHCP INIT after an update: cleaner block-to-bind handoff, loopback-adapter lease filtering, directed subnet broadcasts so OFFER/ACK reach the right interface, and explicit handling of DECLINE/RELEASE/INFORM messages.
+- **Stability & Polish** — PIN is now verified before display selection so a wrong PIN no longer strands the UI; offline diagnostic reports are queued and retried automatically on next launch; the connection mode dialog widens with a secondary Wi-Fi adapter option; settings dialog matches the rest of the dark theme.
+
+---
+
 ## v1.5.0 — Encoder Selection & Performance
 
 **Release Date:** April 25, 2026
@@ -67,7 +80,9 @@
 
 ---
 
-## v1.1.0 (2026-03-08)
+## v1.1.0
+
+**Release Date:** March 8, 2026
 
 ### New Features
 - **Internet Access Control** — Control whether connected devices can access the internet through your hotspot. Disabled by default to save hotspot data.
